@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* Section header */
+.first-section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.div-one{
+    width: 70%;
+    padding-left: 80px;
+
+}
+.div-one img{
+    width: 80%;
+    padding: 40px;
+}
+.heading-one{
+    font-size: 3rem;
+    color: rgb(9, 95, 134);
+}
+.color{
+    color: orangered;
+}
+/* Section My Skills */
+.second-section{
+    width: 100%;
+    background-color: rgb(4, 71, 66);
+    height: 300px;
+}
+.second-section h1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+.div-two{
+    width: 95%;    
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 15px;
+   
+    
+}
+.div-two ol li{
+       
+    display: inline-block;
+    width: 49%;
+    
+}
+
+/* Section education & Experiance */
+.main{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(7, 51, 80);
+
+
+}
+.first-section2{
+    display: flex;   
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+   
+}
+
+/* Conatact Section */
+.contact-div {
+    text-align: center;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%
+   margin: 0 auto;
+   border-radius: 20px;
+   font-size: 24px;
+
+}
+.contact-div h1{
+    color: teal;
+}
+.contact-div p{
+  color: rgb(3, 130, 248);
+}
+
+/* footer Section details */
+
+.footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
